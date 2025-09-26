@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>valor do carro</title>
+    
+</head>
+<style>
+    .my-class {
+        padding: 10px;
+    }
+</style>
+<body>
+    <h1>Programa para calcular valor do carro</h1>
+    <h2>insersão do valor do carro</h2>
+    <form>
+        <h3>
+            <p>Valor do Carro <input type="text" id="IdInValorDoCarro"></p>
+<div style="display: flex;">
+            <p class="my-class">ArCondicionado: <input type="checkbox" id="idInArCondicionado" name="ArCondicionado" value="1750.00"></p>
+            <p class="my-class">Pintura: <input type="checkbox" id="idInPintura" value="800.00"></p>
+            <p class="my-class">Vidro: <input type="checkbox" class="my-class" id="idInVidro" value="1200.00"></p>
+            <p class="my-class">Direção: <input type="checkbox" class="my-class" id="idInDirecao" value="2000.00"></p>
+</div>            
+            <p><input type="button" id="bntCalcularCarro" value="CalcularPreçoCarro" onclick="eventoBtnVerificarValCarro()"></p>
+            <p>Resultado:</p>
+            <p id="idOnResultado"></p>
+        </h3>
+
+    </form>
+    <script src="js/programa.js"></script>
+</body>
+
+</html>
