@@ -11,5 +11,5 @@ function EventoBntValidar() {
     const tipoCombus = Number(selecionada.value);
     const valor = calcularValor(litroCombus, tipoCombus);
     const sigla = selecionada.dataset.sigla;
-    resultado.innerText = litroCombus + " Litros de " + sigla + " é: R$ " + valor.toFixed(2);
+    resultado.innerText = litroCombus + " Litros de " + sigla + " é: " + valor.toFixed(2);
 }

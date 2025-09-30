@@ -16,12 +16,12 @@ function EventoBntValidar() {
     let  saida ="";
     if (formPagamento === "2X") {
         parcelas = total / 2;
-        saida = "Para pagar em " + formPagamento + " o valor de R$" + valorProduto.toFixed(2) + " sai por R$" + total.toFixed(2) + " em 2X de R$" + parcelas.toFixed(2);
+        saida = formPagamento + " o valor de R$" + valorProduto.toFixed(2) + " sai por R$" + total.toFixed(2) + " em 2X de R$" + parcelas.toFixed(2);
     } else if (formPagamento === "3X") {
         parcelas = total / 3;
-        saida = "Para pagar em " + formPagamento + " o valor de R$" + valorProduto.toFixed(2) + " sai por R$" + total.toFixed(2) + " em 3X de R$" + parcelas.toFixed(2);
+        saida = formPagamento + " o valor de R$" + valorProduto.toFixed(2) + " sai por R$" + total.toFixed(2) + " em 3X de R$" + parcelas.toFixed(2);
     } else {
-        saida = "Para pagar em " + formPagamento + " o valor de R$" + valorProduto.toFixed(2) + " sai por R$" + total.toFixed(2);
+        saida = formPagamento + " o valor de R$" + valorProduto.toFixed(2) + " sai por R$" + total.toFixed(2);
     } {
 
     }
